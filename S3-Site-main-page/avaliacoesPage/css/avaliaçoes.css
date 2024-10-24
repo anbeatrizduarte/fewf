@@ -1,0 +1,162 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+
+    }
+
+.minhas-redes-sociais ul {
+    padding: 0px!important;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+}
+
+
+.menu-principal {
+    width: 100%;
+    background-color: #000000;
+    height: 68px;
+    }
+
+.main, content {
+    margin: auto;
+    width: 980px;
+    position: relative;
+    }
+        
+.logo {
+    padding: 5px;
+    padding-left: 200px;
+    float: left;
+    }
+
+.minhas-redes-sociais ul li {
+    margin-right: 1px;
+    display: inline-block;
+    list-style: none;
+    
+    }
+        
+.minhas-redes-sociais {
+    padding-right: 110px;
+    width: 14%;
+    float: right;
+        
+    }
+
+
+.header-2 {
+    background-color: #ffff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 10px;
+    padding-right: 150px;
+}
+
+.menu-urls {
+    height: 74px;
+    border-bottom: 3px solid #f0f0f0;
+    
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #000000;
+    margin-left: 40px;
+    height: 47px;
+    list-style: none;
+    
+    
+
+}
+
+.menu ul li:hover{
+    border-bottom: 4px solid #5CE1E6;
+}
+.menu ul li a:hover {
+    color: #5CE1E6;
+}
+
+.menu ul li a{ 
+    color: #8a8a8a;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+        
+}
+
+    
+.menu {
+    width: 95%;
+    float: left;
+    }
+    
+.busca {
+    text-align: center;
+    
+    width: 47px;
+    float: right;
+}
+
+.busca input {
+    background-image: url('../img/wsw.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-size: 15px;
+    border: 1px solid #f0f0f0;
+    height: 20px;
+    
+    padding: 10px;
+
+    
+    
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.texto-destaque h1 {
+    text-align: center;
+    padding-top: 8%;
+    font-size: 70px;
+    font-weight: bold;
+    
+}
+
+.texto-destaque-2 h2 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #8a8a8a;
+    opacity: 30%;
+    
+    
+}
+
+.texto-destaque-2 img {
+    display: block;
+    margin: 0px auto;
+    padding-bottom: 50px;
+}
+
+.final-real {
+    padding-top: 50px;
+}
+
+.menu-final {
+    height: 50px;
+    padding: 30px;
+    background-color: #000000;
+    padding-left: 90px;
+    align-items: center;
+    border-top: 6px solid #f1f1f1;
+}

@@ -1,0 +1,273 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+
+    }
+
+.minhas-redes-sociais ul {
+    padding: 0px!important;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+}
+
+
+.menu-principal {
+    width: 100%;
+    background-color: #000000;
+    height: 68px;
+    }
+
+.main, content {
+    margin: auto;
+    width: 980px;
+    position: relative;
+    }
+        
+.logo {
+    padding: 5px;
+    padding-left: 200px;
+    float: left;
+    }
+
+.minhas-redes-sociais ul li {
+    margin-right: 1px;
+    display: inline-block;
+    list-style: none;
+    
+    }
+        
+.minhas-redes-sociais {
+    padding-right: 110px;
+    width: 14%;
+    float: right;
+        
+    }
+
+
+.header-2 {
+    background-color: #ffff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 10px;
+    padding-right: 150px;
+}
+
+.menu-urls {
+    height: 74px;
+    border-bottom: 3px solid #f0f0f0;
+    
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #000000;
+    margin-left: 40px;
+    height: 47px;
+    list-style: none;
+    
+    
+
+}
+
+.menu ul li:hover{
+    border-bottom: 4px solid #5CE1E6;
+}
+.menu ul li a:hover {
+    color: #5CE1E6;
+}
+
+.menu ul li a{ 
+    color: #8a8a8a;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+        
+}
+
+    
+.menu {
+    width: 95%;
+    float: left;
+    }
+    
+.busca {
+    text-align: center;
+    
+    width: 47px;
+    float: right;
+}
+
+.busca input {
+    background-image: url('../img/wsw.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-size: 15px;
+    border: 1px solid #f0f0f0;
+    height: 20px;
+    
+    padding: 10px;
+
+    
+    
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.texto-destaque h1 {
+    text-align: center;
+    padding-top: 8%;
+    font-size: 70px;
+    font-weight: bold;
+    
+}
+
+.texto-destaque-2 h2 {
+    text-align: right;
+    padding-top: 2%;
+    padding-right: 180px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #5CE1E6;
+    
+}
+
+.img-destaque {
+    
+    padding-left: 70px;
+    float: left;
+    
+    
+}
+
+.texto-destaque-2 h4 {
+    text-align: left;
+    padding-top: 2%;
+    padding-left: 750px;
+    
+}
+
+.bloco-imagem::before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 46px;
+    background: #ffff;
+    background-image: url('../img/image-removebg-preview.png');
+    background-size: 93px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+.bloco-imagem {
+    height: 580px;
+    background-color: #f1f1f1;
+    
+    
+}
+
+.bloco-imagem h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+
+.card {
+    background: transparent;
+    width: 250px;
+    height: 250px;
+    perspective: 1000px;
+    float: left;
+    padding-left: 151px;
+    position: relative;
+    padding-top: 50px;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.7s;
+    transform-style: preserve-3d;
+
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front , .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 17px;
+    padding-bottom: 50px;
+}
+
+.card-front {
+    background: linear-gradient(317.48deg, #5CE1E6 20.49%, #000000 102.33%);
+
+}
+
+.card-front img {
+    width: 250px;
+    padding-top: 20px;
+}
+
+.card-back {
+    background: linear-gradient(152.25deg, #5CE1E6 38.17%, #000 97.81%);
+    color: #FFFFFF;
+    transform: rotateY(180deg);
+}
+
+.card-back img {
+    width: 160px;
+}
+
+.card-back h3 {
+  padding-top: 80px;
+  margin-bottom: 0.3rem;
+  text-align: center;
+}
+
+.card-back h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.card h2 {
+    padding-top: 60px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.final-real {
+    padding-top: 50px;
+}
+
+.menu-final {
+    height: 50px;
+    padding: 30px;
+    background-color: #000000;
+    padding-left: 90px;
+    align-items: center;
+    border-top: 6px solid #f1f1f1;
+}
+
